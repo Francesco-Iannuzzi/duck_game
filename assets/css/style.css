@@ -1,0 +1,32 @@
+/* general */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* end general */
+
+/* header */
+
+.jumbo {
+    background-color: palegreen;
+}
+
+/* end header */
+
+/* main */
+.game_board {
+    background-color: palegreen;
+}
+
+/* end main */
+
+/* footer */
+
+#app_footer {
+    background-color: paleturquoise;
+}
+
+/* end footer */
