@@ -17,8 +17,78 @@
 /* end header */
 
 /* main */
+
+#app_main {
+    background-color: aquamarine;
+}
+
 .game_board {
-    background-color: palegreen;
+    display: flex;
+    justify-content: center;
+}
+
+.grid {
+    width: calc((4rem * 9) + 3px);
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    border: 1px solid black;
+}
+
+.cell {
+    height: 4rem;
+    width: 4rem;
+    background-color: aquamarine;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.cell-dark {
+    background-color: rgb(113, 229, 190);
+}
+
+.river {
+    background-color: lightblue;
+}
+
+.street {
+    background-color: grey;
+    border-bottom: 1px dotted white;
+    border-top: 1px dashed white;
+}
+
+.bus {
+    background-image: url('../img/bus.png');
+
+}
+
+.car {
+    background-image: url('../img/car.png');
+
+}
+
+.wood {
+    background-image: url('../img/wood.png');
+}
+
+.duck {
+    background-image: url('../img/duck-walk.gif');
+}
+
+.duck-arrived {
+    background-image: url('../img/duck-standing.png');
+}
+
+.duck-drowned {
+    background-image: url('../img/duck-drowned.png');
+}
+
+.duck-hit {
+    background-image: url('../img/duck-hit.png');
+}
+
+.hidden {
+    display: none;
 }
 
 /* end main */

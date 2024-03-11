@@ -39,7 +39,7 @@
 
                 <div class="game_station fs-4 d-flex justify-content-between">
                     <div>
-                        <select name="difficult" id="difficult" class="rounded-3 p-2">
+                        <select name="difficult" id="difficult" class="rounded-3 p-2 hidden">
                             <option value="easy">Egg</option>
                             <option value="medium">Duck</option>
                             <option value="hard">Omelette</option>
@@ -62,18 +62,102 @@
     <!-- /app_header -->
 
     <main id="app_main">
-        <div class="container">
-            <div class="game_board">
-                <div class="grid">
-                    <!-- cells here! -->
-                </div>
+
+        <div class="game_board container py-5">
+            <div class="grid">
+                <div class="cell cell-dark"></div>
+                <div class="cell"></div>
+                <div class="cell cell-dark"></div>
+                <div class="cell"></div>
+                <div class="cell cell-dark  duck-arrived"></div>
+                <div class="cell"></div>
+                <div class="cell cell-dark"></div>
+                <div class="cell"></div>
+                <div class="cell cell-dark"></div>
+                <div class="cell river wood"></div>
+                <div class="cell river"></div>
+                <div class="cell river"></div>
+                <div class="cell river"></div>
+                <div class="cell river"></div>
+                <div class="cell river"></div>
+                <div class="cell river"></div>
+                <div class="cell river"></div>
+                <div class="cell river duck-drowned"></div>
+                <div class="cell street bus"></div>
+                <div class="cell street"></div>
+                <div class="cell street"></div>
+                <div class="cell street"></div>
+                <div class="cell street car"></div>
+                <div class="cell street"></div>
+                <div class="cell street"></div>
+                <div class="cell street duck-hit"></div>
+                <div class="cell street"></div>
+                <div class="cell street"></div>
+                <div class="cell street"></div>
+                <div class="cell street"></div>
+                <div class="cell street"></div>
+                <div class="cell street"></div>
+                <div class="cell street"></div>
+                <div class="cell street"></div>
+                <div class="cell street"></div>
+                <div class="cell street"></div>
+                <div class="cell"></div>
+                <div class="cell cell-dark"></div>
+                <div class="cell"></div>
+                <div class="cell cell-dark"></div>
+                <div class="cell"></div>
+                <div class="cell cell-dark"></div>
+                <div class="cell"></div>
+                <div class="cell cell-dark"></div>
+                <div class="cell"></div>
+                <div class="cell cell-dark"></div>
+                <div class="cell"></div>
+                <div class="cell cell-dark"></div>
+                <div class="cell"></div>
+                <div class="cell cell-dark"></div>
+                <div class="cell"></div>
+                <div class="cell cell-dark"></div>
+                <div class="cell"></div>
+                <div class="cell cell-dark"></div>
+                <div class="cell"></div>
+                <div class="cell cell-dark"></div>
+                <div class="cell"></div>
+                <div class="cell cell-dark"></div>
+                <div class="cell"></div>
+                <div class="cell cell-dark"></div>
+                <div class="cell"></div>
+                <div class="cell cell-dark"></div>
+                <div class="cell"></div>
+                <div class="cell cell-dark"></div>
+                <div class="cell"></div>
+                <div class="cell cell-dark"></div>
+                <div class="cell"></div>
+                <div class="cell cell-dark"></div>
+                <div class="cell"></div>
+                <div class="cell cell-dark"></div>
+                <div class="cell"></div>
+                <div class="cell cell-dark"></div>
+                <div class="cell"></div>
+                <div class="cell cell-dark"></div>
+                <div class="cell"></div>
+                <div class="cell cell-dark"></div>
+                <div class="cell duck"></div>
+                <div class="cell cell-dark"></div>
+                <div class="cell"></div>
+                <div class="cell cell-dark"></div>
+                <div class="cell"></div>
+                <!-- cells here! -->
+            </div>
+
+            <div class="endgame_board hidden">
+                endgame
             </div>
         </div>
     </main>
     <!-- /app_main -->
 
     <footer id="app_footer" class="py-5">
-        <div class="container text-dark ">
+        <div class="container text-dark">
             <span>Created by Francesco Iannuzzi</span>
         </div>
     </footer>
